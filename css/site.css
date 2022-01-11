@@ -1,7 +1,8 @@
 :root {
-    --cf-purple: #f2d5fd;
-    --cf-lightpurple: #f5eafa;
     --cf-dark: #212121;
+    --cf-light: #ebebeb;
+    --cf-darkblue: #00223d;
+    --cf-highlight: #fae100;
 }
 
 
@@ -24,5 +25,5 @@ body {
 
 .footer {
     flex-shrink: 0;
-    
+
 }
