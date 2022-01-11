@@ -1,8 +1,8 @@
 :root {
-    --cf-purple: #f2d5fd;  
+    --cf-purple: #f2d5fd;
     --cf-lightpurple: #f5eafa;
     --cf-dark: #212121;
-  }
+}
 
 
 html,
@@ -13,10 +13,9 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    background-image: url("/img/LandingPage.png");
-    background-position: right;    
+    background-image: url("/img/LandingPage_1920.png");
+    background-position: top right;
     background-repeat: no-repeat;
-    background-size: cover;    
 }
 
 .content {
@@ -25,5 +24,5 @@ body {
 
 .footer {
     flex-shrink: 0;
-    background-color: var(--cf-dark);
+    
 }
