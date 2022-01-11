@@ -34,15 +34,3 @@
 - Publish to Netlify and show the world!
 
 
- ### NEVER GIVE UP
- ### ON YOUR DREAMS
- ### LEARN TO CODE AND START A NEW CAREER!
- ### BUTTON: START TODAY!
-</li>
-<li>
-  Add a copyright symbol to the footer with a year. The copyright should be centered in the footer.  
-</li>
-<li>Publish to Netlify and show the world!</li>
-</ul>
-
-
