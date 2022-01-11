@@ -1,9 +1,10 @@
-# LandingPage Quiz
+# Landing Page Quiz
  Test your knownledge make this page responsive. 
  Feel to post to netlify and share your links with us. We would love to see your work. 
 
+ ## Clone this repo and make the follwoing changes:
+
 <ul>
-<li>Clone this repo and make the follwoing changes</li>
 <li>Import Roboto from google fonts and make it the body font</li>
 <li>
  Make the navbar and the footer transparent so that the rocket image can be seen. Make sure the text on the navbar can be easily read. The text color should be the following:
