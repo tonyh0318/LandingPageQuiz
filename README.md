@@ -1,5 +1,5 @@
 # Landing Page Quiz
- Test your knowledge and make this page responsive. 
+ Test your knowledge and make this page responsive. Bootstrap is included so take advantage and use it. 
  Feel free to post to Netlify and share your links. We would love to see your work.
 
  ## Clone this repo and make the following changes:
