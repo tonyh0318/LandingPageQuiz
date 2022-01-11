@@ -33,7 +33,7 @@
 ![Landscape Preview](/img/LandPageQuizLandscape.PNG)
 
 ### Portrait Preview - mobile phone portrait
-![Portrait Preview](/img/LandPageQuizPortrait.png)
+![Portrait Preview](/img/LandPageQuizPortrait.PNG)
 - Publish to Netlify and show the world!
 
 
