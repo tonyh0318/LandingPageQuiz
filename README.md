@@ -29,11 +29,13 @@
 
 - Add a copyright symbol to the footer with a year. The copyright should be centered in the footer.  
 
+- Publish to Netlify and show the world!
+
 ### Landscape Preview - tablets to large desktops
 ![Landscape Preview](/img/LandPageQuizLandscape.PNG)
 
 ### Portrait Preview - mobile phone portrait
 ![Portrait Preview](/img/LandPageQuizPortrait.PNG)
-- Publish to Netlify and show the world!
+
 
 
