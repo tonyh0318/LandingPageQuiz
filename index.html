@@ -2,54 +2,140 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>Rocket Motivation</title>
+    <title>Quiz</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Racing+Sans+One&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-    <!-- Convert this to an external style sheet -->
-
-    <link href="css/site.css" rel="stylesheet">
+    <!-- Custom style sheet -->
+    <link rel="stylesheet" href="css/site.css">
 </head>
 
 <body>
-    <!--Nav Bar-->
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Rocket Motivation</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                </ul>
+    <div class="container border-1" style="margin-left:0px">
+        <div class="row">
+            <div class="col" style="margin-left:0px">
+                <img src="/img/RocketLogo50x50.png" class="img-fluid">
             </div>
-        </div>
-    </nav>
-    <!--Main Content Section-->
-    <main class="content pt-5">
-        <div class="container">
+
+            <div class="col-6" style="padding: 11px 0px 0px 0px;">
+                <p class="text-white" style="font-family: 'Roboto', sans-serif; 
+                font-size: 112; line-height:1rem ;">Rocket Motivation </p>
+            </div>
+
+            <div class="col-4">
+
+                <nav class="navbar navbar-expand-md fixed-top " id="mainNav">
+
+                    <!-- <ul class="navbar-nav">
+                <li class="nav-item ">
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white"" href=" #about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white"" href=" #skills">Skills</a>
+                </li>
+            </ul> -->
+
+
+                </nav>
+
+
+            </div>
+
 
         </div>
-    </main>
-    <!--Footer Section-->
-    <footer class="footer">
-        <div class="container-fluid py-3">
-            <span class="text-muted">Rocket Motivation</span>
-        </div>
-    </footer>
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
-    </script>
+
+
+
+
+
+
+        <header class="mainHeader">
+
+        </header>
+
+        <!-- All Sections Below -->
+        <main class="container">
+
+            <div class="row" >
+                <div class="col" style="margin-left:0px; padding-left: 0px;">
+                    <section class="myCallToAction" id="contact">
+                        <p class="mainTitle">
+                            NEVER GIVE UP ON YOUR DREAMS</p>
+                        <p class="subTitle">
+                            LEARN TO CODE AND START A NEW CAREER!
+                        </p>
+                        <div class="col-12 d-flex myButton justify-content-left">
+                            <button type="submit" class="btn btn-primary btn-sm"
+                            style="size: 11rem;    color:black; background-color: yellow;">START TODAY!</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer myFooter">
+            <div class="container-fluid text-center text-light">
+                &copy2022 Rocket Motivation
+            </div>
+        </footer>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+        </script>
+
+        <script>
+            window.addEventListener('DOMContentLoaded', event => {
+                // Navbar shrink function
+                var navbarShrink = function () {
+                    const navbarCollapsible = document.body.querySelector('#mainNav');
+                    if (!navbarCollapsible) {
+                        return;
+                    }
+                    if (window.scrollY === 0) {
+                        navbarCollapsible.classList.remove('navbar-shrink')
+                    } else {
+                        navbarCollapsible.classList.add('navbar-shrink')
+                    }
+                };
+                // Shrink the navbar 
+                navbarShrink();
+                // Shrink the navbar when page is scrolled
+                document.addEventListener('scroll', navbarShrink);
+                // Activate Bootstrap scrollspy on the main nav element
+                const mainNav = document.body.querySelector('#mainNav');
+                if (mainNav) {
+                    new bootstrap.ScrollSpy(document.body, {
+                        target: '#mainNav',
+                        offset: 72,
+                    });
+                };
+                // Collapse responsive navbar when toggler is visible
+                const navbarToggler = document.body.querySelector('.navbar-toggler');
+                const responsiveNavItems = [].slice.call(
+                    document.querySelectorAll('#navbarResponsive .nav-link')
+                );
+                responsiveNavItems.map(function (responsiveNavItem) {
+                    responsiveNavItem.addEventListener('click', () => {
+                        if (window.getComputedStyle(navbarToggler).display !== 'none') {
+                            navbarToggler.click();
+                        }
+                    });
+                });
+            });
+        </script>
 </body>
 
 </html>
