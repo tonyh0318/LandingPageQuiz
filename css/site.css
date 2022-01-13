@@ -39,8 +39,31 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: 100vh; */
-    background-position: center;
+    background-position: top center;
 
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    padding-top: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+
+}
+
+.myIconCol {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.myRocketMotTxt {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
 }
 
 .mainTitle {
@@ -48,7 +71,7 @@ body {
     color: var(--ah-light-color);
     font-size: 1.5rem;
     line-height: 1.5rem;
-    padding-top: 25rem;
+    padding-top: 30rem;
     padding-bottom: 0;
     margin-bottom: 0.1em;
 }
@@ -124,7 +147,7 @@ button .myButton {
         color: var(--ah-light-color);
         font-size: 1.5rem;
         line-height: 1.5rem;
-        padding-top: 17em;
+        padding-top: 20em;
         padding-bottom: 0em;
     }
 
@@ -135,9 +158,9 @@ button .myButton {
         padding-top: 0rem;
         font-size: 0.6rem;
         padding-top: 0rem;
-        padding-bottom: 0em;
+        padding-bottom: 0rem;
         margin-top: .1em;
-        margin-bottom: .1em;
+        margin-bottom: 0rem;
     }
 
     section .myCallToAction {
@@ -205,6 +228,14 @@ button .myButton {
 
     }
 
+    .myIconCol {
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 50px;
+        height: 50px;
+    }
+
     .mainTitle {
         font-family: var(--title-font);
         color: var(--ah-light-color);
@@ -242,10 +273,11 @@ button .myButton {
         line-height: .5rem;
         font-size: 3.1rem;
 
-        margin-top: auto;
-        margin-right: auto;
-        margin-bottom: auto;
-        margin-left: auto;
+        margin-top: 0rem;
+        margin-right: 0rem;
+        margin-bottom: 0rem;
+        margin-left: 0rem;
+        padding-left: 0rem;
 
     }
 
@@ -275,15 +307,15 @@ button .myButton {
 
     .myFooter {
         font-family: var(--ah-font-size);
-        font-size: 1.3rem;
-        line-height: .3rem;
+        font-size: 0.8rem;
+        line-height: 0.8rem;
 
         /* letter-spacing: .09rem; */
         color: var(--ah-light-color);
-
-        margin-top: 11rem;
+        padding-top: 62px;
+        margin-top: 15rem;
         margin-right: auto;
-        margin-bottom: auto;
+        margin-bottom: 1rem;
         margin-left: auto;
 
     }
@@ -387,15 +419,15 @@ button .myButton {
 
     .myFooter {
         font-family: var(--ah-font-size);
-        font-size: 1.3rem;
-        line-height: .3rem;
+        font-size: 0.8rem;
+        line-height: 0.8rem;
 
         /* letter-spacing: .09rem; */
         color: var(--ah-light-color);
-
-        margin-top: 11rem;
+        padding-top: 0px;
+        margin-top: 22rem;
         margin-right: auto;
-        margin-bottom: auto;
+        margin-bottom: 1rem;
         margin-left: auto;
 
     }
@@ -507,198 +539,199 @@ button .myButton {
             margin-left: auto;
 
         }
+    }
 
+    @media (min-width: 1199.98px) {
 
-        @media (min-width: 1199.98px) {
+        body {
+            font-family: var(--ah-body-font);
+            font-size: var(--ah-font-size);
+            font-weight: var(--ah-font-weight);
+            line-height: var(--ah-line-height);
+            color: var(--ah-dark-color);
+            background-color: #00223d;
+            --webkit-test-size-adjust: 100;
+            background-image: url(/img/1201x676.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* background-position: 100vh; */
+            background-position: center;
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-left: auto;
 
-            body {
-                font-family: var(--ah-body-font);
-                font-size: var(--ah-font-size);
-                font-weight: var(--ah-font-weight);
-                line-height: var(--ah-line-height);
-                color: var(--ah-dark-color);
-                background-color: #00223d;
-                --webkit-test-size-adjust: 100;
-                background-image: url(/img/1201x676.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                /* background-position: 100vh; */
-                background-position: center;
-                margin-top: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-                margin-left: auto;
-
-            }
-
-            .mainTitle {
-                font-family: var(--title-font);
-                color: var(--ah-light-color);
-                font-size: 1.5rem;
-                line-height: 1.5rem;
-                padding-top: 22rem;
-                padding-bottom: 0;
-                margin-top: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-                margin-left: auto;
-            }
-
-            .subTitle {
-                font-family: var(--subtitle-font);
-                /* letter-spacing: .09rem; */
-                color: var(--ah-light-color);
-                padding-top: 0rem;
-                font-size: 0.6rem;
-                padding-top: 0rem;
-                padding-bottom: 0;
-                margin-top: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-                margin-left: auto;
-            }
-
-            section .myCallToAction {
-                font-family: 'Courier New', Courier;
-                line-height: .5rem;
-                font-size: 3.1rem;
-                margin-top: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-                margin-left: auto;
-
-            }
-
-            button .myButton {
-                width: .5rem;
-                height: 2rem;
-                margin-top: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-                margin-left: auto;
-            }
-
-            .myCallToAction {
-                height: 100%;
-                /* padding-top: 5rem; */
-                /*DOUBLE CHECK VALUE ************************************************************************************************************** */
-                padding-bottom: 1rem;
-                /*DOUBLE CHECK VALUE ************************************************************************************************************** */
-                margin-top: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-                margin-left: auto;
-            }
-
-            .myFooter {
-                font-family: var(--ah-font-size);
-                font-size: .3rem;
-                line-height: .3rem;
-
-                /* letter-spacing: .09rem; */
-                color: var(--ah-light-color);
-                margin-top: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-                margin-left: auto;
-            }
         }
 
+        .mainTitle {
+            font-family: var(--title-font);
+            color: var(--ah-light-color);
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            padding-top: 22rem;
+            padding-bottom: 0;
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+        }
 
-        /* 1399 and up */
-        @media (min-width: 1399.98px) {
+        .subTitle {
+            font-family: var(--subtitle-font);
+            /* letter-spacing: .09rem; */
+            color: var(--ah-light-color);
+            padding-top: 0rem;
+            font-size: 0.6rem;
+            padding-top: 0rem;
+            padding-bottom: 0;
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+        }
 
-            body {
-                font-family: var(--ah-body-font);
-                font-size: var(--ah-font-size);
-                font-weight: var(--ah-font-weight);
-                line-height: var(--ah-line-height);
-                color: var(--ah-dark-color);
-                background-color: #00223d;
-                --webkit-test-size-adjust: 100;
-                background-image: url(/img/576x324.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                /* background-position: 100vh; */
-                background-position: center;
-                margin-top: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-                margin-left: auto;
+        section .myCallToAction {
+            font-family: 'Courier New', Courier;
+            line-height: .5rem;
+            font-size: 3.1rem;
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-left: auto;
 
-            }
+        }
 
-            .mainTitle {
-                font-family: var(--title-font);
-                color: var(--ah-light-color);
-                font-size: 1.5rem;
-                line-height: 1.5rem;
-                padding-top: 22rem;
-                padding-bottom: 0;
-                margin-top: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-                margin-left: auto;
-            }
+        button .myButton {
+            width: .5rem;
+            height: 2rem;
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+        }
 
-            .subTitle {
-                font-family: var(--subtitle-font);
-                /* letter-spacing: .09rem; */
-                color: var(--ah-light-color);
-                padding-top: 0rem;
-                font-size: 0.6rem;
-                padding-top: 0rem;
-                padding-bottom: 0;
-                margin-top: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-                margin-left: auto;
-            }
+        .myCallToAction {
+            height: 100%;
+            /* padding-top: 5rem; */
+            /*DOUBLE CHECK VALUE ************************************************************************************************************** */
+            padding-bottom: 1rem;
+            /*DOUBLE CHECK VALUE ************************************************************************************************************** */
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+        }
 
-            section .myCallToAction {
-                font-family: 'Courier New', Courier;
-                line-height: .5rem;
-                font-size: 3.1rem;
-                margin-top: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-                margin-left: auto;
+        .myFooter {
+        font-family: var(--ah-font-size);
+        font-size: 0.8rem;
+        line-height: 0.8rem;
 
-            }
-
-            button .myButton {
-                width: .5rem;
-                height: 2rem;
-                margin-top: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-                margin-left: auto;
-            }
-
-            .myCallToAction {
-                height: 100%;
-                /* padding-top: 5rem; */
-                /*DOUBLE CHECK VALUE ************************************************************************************************************** */
-                padding-bottom: 1rem;
-                /*DOUBLE CHECK VALUE ************************************************************************************************************** */
-                margin-top: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-                margin-left: auto;
-            }
-
-            .myFooter {
-                font-family: var(--ah-font-size);
-                font-size: .3rem;
-                line-height: .3rem;
-
-                /* letter-spacing: .09rem; */
-                color: var(--ah-light-color);
-                margin-top: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-                margin-left: auto;
-            }
+        /* letter-spacing: .09rem; */
+        color: var(--ah-light-color);
+        padding-top: 0px;
+        margin-top: 22rem;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        margin-left: auto;
         }
     }
+
+
+    /* 1399 and up */
+    @media (min-width: 1399.98px) {
+
+        body {
+            font-family: var(--ah-body-font);
+            font-size: var(--ah-font-size);
+            font-weight: var(--ah-font-weight);
+            line-height: var(--ah-line-height);
+            color: var(--ah-dark-color);
+            background-color: #00223d;
+            --webkit-test-size-adjust: 100;
+            background-image: url(/img/576x324.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* background-position: 100vh; */
+            background-position: center;
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+
+        }
+
+        .mainTitle {
+            font-family: var(--title-font);
+            color: var(--ah-light-color);
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            padding-top: 22rem;
+            padding-bottom: 0;
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+        }
+
+        .subTitle {
+            font-family: var(--subtitle-font);
+            /* letter-spacing: .09rem; */
+            color: var(--ah-light-color);
+            padding-top: 0rem;
+            font-size: 0.6rem;
+            padding-top: 0rem;
+            padding-bottom: 0;
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+        }
+
+        section .myCallToAction {
+            font-family: 'Courier New', Courier;
+            line-height: .5rem;
+            font-size: 3.1rem;
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+
+        }
+
+        button .myButton {
+            width: .5rem;
+            height: 2rem;
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+        }
+
+        .myCallToAction {
+            height: 100%;
+            /* padding-top: 5rem; */
+            /*DOUBLE CHECK VALUE ************************************************************************************************************** */
+            padding-bottom: 1rem;
+            /*DOUBLE CHECK VALUE ************************************************************************************************************** */
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+        }
+
+        .myFooter {
+            font-family: var(--ah-font-size);
+            font-size: .3rem;
+            line-height: .3rem;
+
+            /* letter-spacing: .09rem; */
+            color: var(--ah-light-color);
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+        }
+    }
+}
 }
